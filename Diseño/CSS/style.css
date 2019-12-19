@@ -1,0 +1,191 @@
+.footer {
+    background-color: black;
+  }
+  
+  /*
+   * Custom translucent site header
+   */
+.site-header {
+    background-color: rgba(0, 0, 0, 0.87);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  .site-header a {
+    color: #209c1acb;
+    transition: ease-in-out color .15s;
+  }
+  .site-header a:hover {
+    color: rgb(209, 209, 219);
+    text-decoration: none;
+  }
+  
+  /*
+   * Dummy devices (replace them with your own or something else entirely!)
+   */
+   
+   .product-device::before-3 {
+     top: -25%;
+     right: auto;
+     bottom: 0;
+     left: 5%;
+     background-color: rgb(162, 0, 255);
+   }
+  .product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: rgb(3, 4, 77);
+    border-radius: 21px;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+  }
+  .product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: #c72323c1;
+    border-radius: 5px;
+  }
+  
+  .product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #661207;
+
+  }
+  .product-device-3::before {
+    background-color: rgb(0, 102, 255)
+  }
+
+
+  
+  
+  /*
+   * Extra utilities
+   */
+  
+  .flex-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      -ms-flex: 1;
+      flex: 1;
+    }
+  }
+  
+  .overflow-hidden { overflow: hidden; }
+
+
+   .carousel-inner{
+    height: 90vh !important;
+    /* margin-bottom: 40%; */
+  }
+  
+   .img1 {
+     height: 300px;
+  }            
+  .img5 {
+    height: 250px;
+  }
+
+  .img10 {
+    height: 300px;
+    margin-top: 00%;
+  }
+  .img20 {
+height: 50px;
+  }
+ 
+  .d-block{
+    margin-left: 40%;
+  }
+  .jumbotron{
+    background-color: white
+  }
+  .img12 {
+width: 60vw;
+height: 90vh;
+  }
+  .sub1{
+    font-size: 13pt;
+
+  }
+  .siteheader{
+opacity: 80%;
+  }
+  .display4{
+    color: blanchedalmond;
+    font-size: 10px;
+    margin-left: 70%;
+  }
+  .principal{
+    height: 66vh;
+    width: 50vw;
+  }
+  .position-relative{
+    height: 85vh;
+  }
+  .display-4{
+    text-align: center;
+    margin-top: 13%;
+  }
+.lead{
+  margin-left: 50%;
+}
+.sub1{
+margin-left: 60%;
+}
+.honor1{
+  margin-left: 60%;
+}
+.img21{
+  height: 40vh;
+}
+.lead{
+  margin-left: 50%;
+}
+.btn-primary{
+margin-left: 50%;
+} 
+/* .carousel1{
+height: 90vh;
+} */
+.img30{
+height: 80vh;
+}
+.lead1{
+  text-align: center;
+}
+.imgcarrusel{
+  width: 100vw;
+}
+.lead2{
+  font-size: 20px;
+}
+.imghuawei{
+  height: 40vh;
+}
+tr{
+  border: 1px solid gray;
+}
+.imghuawei2{
+  height: 40vh;
+  margin-top: 10%;
+  margin-left: 15%;
+}
+.table1{
+margin: 10%;
+}
+.imgsamsung3{
+  margin-top: 10%;
+  height: 40vh;
+}

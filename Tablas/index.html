@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Tablas</title>
+</head>
+
+<body>
+    <h1>TABLAS</h1>
+    <!-- Inicia tabla -->
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Telefono</th>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>31</td>
+            <td>553255</td>
+        </tr>
+        <tr>
+            <td>Erick</td>
+            <td>17</td>
+            <td>5530551495</td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th colspan="2">Telefono</th>
+        </tr>
+        <tr>
+            <td>Erick</td>
+            <td>17</td>
+            <td>5530551495</td>
+            <td>5582632290</td>
+        </tr>
+        <tr>
+            <td>Gabriel</td>
+            <td>45</td>
+            <td>5513824301</td>
+            <td>5589319831</td>
+        </tr>
+        <tr>
+            <td>Cristian</td>
+            <td>25</td>
+            <td>5593383789</td>
+            <td>5521831381</td>
+        </tr>
+        <tr>
+            <td>Manuel</td>
+            <td>30</td>
+            <td>5513810391</td>
+            <td>5543802141</td>
+        </tr>
+        <tr>
+            <td>Mary</td>
+            <td>45</td>
+            <td>5512047321</td>
+            <td>5512973187</td>
+        </tr>
+    </table>
+    <hr>
+    <!-- table>(tr>(td>{texto $})*4)*5 -->
+    <table>
+        <!-- el caption son subtitulos -->
+        <caption>Tabla con combinación de columnas</caption>
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th colspan="2">Telefonos</th>
+        </tr>
+        <tr>
+            <td>texto 1</td>
+            <td>texto 2</td>
+            <td>texto 3</td>
+            <td>texto 4</td>
+        </tr>
+        <tr>
+            <td>texto 1</td>
+            <td>texto 2</td>
+            <td>texto 3</td>
+            <td>texto 4</td>
+        </tr>
+        <tr>
+            <td>texto 1</td>
+            <td>texto 2</td>
+            <td>texto 3</td>
+            <td>texto 4</td>
+        </tr>
+        <tr>
+            <td>texto 1</td>
+            <td>texto 2</td>
+            <td>texto 3</td>
+            <td>texto 4</td>
+        </tr>
+        <tr>
+            <td>texto 1</td>
+            <td>texto 2</td>
+            <td>texto 3</td>
+            <td>texto 4</td>
+        </tr>
+        <tr>
+            <td>texto 1</td>
+            <td>texto 2</td>
+            <td>texto 3</td>
+            <td>texto 4</td>
+        </tr>
+        <tr>
+            <td>texto 1</td>
+            <td>texto 2</td>
+            <td>texto 3</td>
+            <td>texto 4</td>
+        </tr>
+        <tr>
+            <td>texto 1</td>
+            <td>texto 2</td>
+            <td>texto 3</td>
+            <td>texto 4</td>
+        </tr>
+    </table>
+    <hr>
+    <!-- tabla con dos filas para agregar dos telefonos -->
+    <table>
+        <tr>
+                <th>Nombre</th>
+                <td>Erick</td>
+        </tr>
+       <tr>
+           <th>Edad</th>
+           <td>17</td>
+       </tr>
+       <tr>
+           <!-- rowspan es para agregar dos filas en un mismo table head -->
+           <th rowspan="2">Telefono</th>
+           <td>5530551495</td>
+       </tr>
+       <tr>
+           <td>551248214827</td>
+       </tr>
+    </table>
+    <hr>
+    <!-- tabla 2 -->
+    <table>
+        <tr>
+                <th>Nombre</th>
+                <td>Carlos</td>
+        </tr>
+       <tr>
+           <th>Edad</th>
+           <td>31</td>
+       </tr>
+       <tr>
+           <th rowspan="2">Telefono</th>
+           <td>5522491291</td>
+       </tr>
+       <tr>
+           <td>2764287362</td>
+       </tr>
+    </table>
+    <hr>
+    <!-- tabla 3 -->
+    <table>
+        <tr>
+                <th>Nombre</th>
+                <td>Gabriel</td>
+        </tr>
+       <tr>
+           <th>Edad</th>
+           <td>30</td>
+       </tr>
+       <tr>
+           <th rowspan="2">Telefono</th>
+           <td>55487294821</td>
+       </tr>
+       <tr>
+           <td>552374295825</td>
+       </tr>
+    </table>
+    <hr>
+    <!-- tabla 4 -->
+    <table class="">
+        <tr>
+                <th>Nombre</th>
+                <td>Cristian</td>
+        </tr>
+       <tr>
+           <th>Edad</th>
+           <td>24</td>
+       </tr>
+       <tr>
+           <th rowspan="2">Telefono</th>
+           <td>55381791319</td>
+       </tr>
+       <tr>
+           <td>554323489234</td>
+       </tr>
+    </table>
+    <hr>
+    <!-- tabla 5 -->
+    <table class="tabla 5">
+        <tr>
+                <th>Nombre</th>
+                <td>Mateo</td>
+        </tr>
+       <tr>
+           <th>Edad</th>
+           <td>20</td>
+       </tr>
+       <tr>
+           <th rowspan="2">Telefono</th>
+           <td>55300219831</td>
+       </tr>
+       <tr>
+           <td>551212912321</td>
+       </tr>
+    </table>
+</body>
+
+</html>
+<script src="Js/tabla.js"></script>

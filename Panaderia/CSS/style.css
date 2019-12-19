@@ -1,0 +1,88 @@
+.card-body img{
+    width: 100vw;
+    height: 40vh;
+}
+/* .card-header{
+    height: 10vh;
+}
+.card-body{
+    height: 50vh;
+}
+.card-footer{
+    height: 10vh;
+} */
+/* .img-thumbnail{
+    width: 90vw;
+    height: 73vh;
+} */
+.carrusel img{
+    height: 100vh;
+
+}
+.img1{
+    height: 60vh;
+    width: 40vw;
+}
+.img2{
+    height: 60vh;
+    width: 40vw;
+}
+.carrusel2 img{
+    height: 90vh;
+width: 80vw;
+}
+.img5{
+    height: 50vh;
+    width: 45vw;
+}
+.img6{
+    height: 50vh;
+    width: 40vw;
+}
+.jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+  }
+  @media (min-width: 768px) {
+    .jumbotron {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
+  }
+  
+  .jumbotron p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .jumbotron-heading {
+    font-weight: 300;
+  }
+  
+  .jumbotron .container {
+    max-width: 40rem;
+  }
+.img7{
+    height: 35vh;
+}  
+
+
+.jumbotron-fluid3 {
+    text-align: left;
+}
+.im1{
+width: 80vw;
+height: 40vh;
+}
+
+
+
+
+.carousel img{
+
+    height: 70vh;
+}
+.im9{
+    width: 50vw;
+    height: 80vh;
+}

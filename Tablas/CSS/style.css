@@ -1,0 +1,15 @@
+body{
+    background-color: aqua;
+}
+table{
+    width: 100%;
+    border: 2px solid red
+}
+td{
+    text-align: center;
+}
+th,td{
+    border: 2px solid red;
+    color: royalblue;
+    font-size: 0.7cm;
+}

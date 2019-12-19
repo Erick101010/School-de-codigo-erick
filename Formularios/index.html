@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <h1>Formularios</h1>
+    <!-- formulario -->
+    <form>
+        <label>Nombre:</label>
+        <!-- input es la cajita, esta es de tipo texto, se le puede poner de que tipo sea editando el type -->
+        <input type="text" placeholder="Ingresa tu nombre" required>
+        <br>
+        <label>Edad:</label>
+        <!-- esta es de tipo numero, se le puede poner un minimo y maximo de numeros con el min y max -->
+        <input type="number" placeholder="Ingresa tu edad" required min="5" max="10">
+        <br>
+        <label>Email</label>
+        <!-- Esta es de etiqueta email -->
+        <input type="email" placeholder="Ingresa tu email" required>
+        <br>
+        <label>Teléfono</label>
+        <!-- Esta es de tipo numero -->
+        <input type="number" placeholder="Ingresa tu numero" required min="8" max=10>
+        <br>
+        <label>Password:</label>
+        <!-- Esta es de tipo password, se le puede poner un minimo de caracteres y un maximo con el minlength y maxlength-->
+        <input type="password" placeholder="Ingresa tu password" required minlength="7" maxlength="10">
+        <br>
+        <button>Enviar</button>
+    </form>
+    <hr>
+    <!-- Mi primer formulario -->
+    <form>
+        <label>Nombre del tutor:</label>
+        <input type="text" placeholder="Ingrese el nombre" required>
+        <br>
+        <label>Correo del tutor:</label>
+        <input type="email" placeholder="Ingrese el email" required>
+        <br>
+        <label>Nombre del alumno</label>
+        <input type="text" placeholder="Ingrese el nombre" required>
+        <br>
+        <label>Edad del alumno</label>
+        <input type="number" placeholder="Ingrese la edad" required min="0" max="5">
+        <br>
+        <label>Grado</label>
+        <input type="number" placeholder="Ingrese el grado" required min="1" max="6">
+        <br>
+        <button>Enviar</button>
+    </form>
+    <hr>
+    <!-- listas -->
+    <p>listo ordenada</p>
+    <ol>
+        <li>texto1</li>
+        <li>texto2</li>
+        <li>texto3</li>
+        <li>texto4</li>
+        <li>texto5</li>
+    </ol>
+
+
+    <p>lista desordenada</p>
+    <ul>
+        <li>texto1</li>
+        <li>texto2</li>
+        <li>texto3</li>
+        <li>texto4</li>
+    </ul>
+    <!-- checkbox es para poner las cajitas para palomear -->
+    <form action="">
+        <ul>
+            <li>
+                <input type="checkbox" name="cafe" id="cafe" value="cafe">
+                <label for="cafe">cafe</label>
+            </li>
+            <li> <input type="checkbox" name="agua" id="agua" value="agua">
+                <label for="agua">agua</label>
+            </li>
+            <li>
+                <input type="checkbox" name="refresco" id="refresco">
+                <label for="refresco">refresco</label>
+            </li>
+        </ul>
+    </form>
+    <hr>
+    <!-- radio buttons -->
+    <h1>radio buttons</h1>
+    <form action="">
+        <ul>
+            <li>
+                <input type="radio" name="genero" id="masculino">
+                <label for="masculino">masculino</label>
+            </li>
+            <li> <input type="radio" name="genero" id="femenino">
+                <label for="femenino">femenino</label>
+            </li>
+            <li>
+                <input type="radio" name="genero" id="otro">
+                <label for="otro">otro</label>
+            </li>
+        </ul>
+    </form>
+    <hr>
+    <form action="">
+        <ul>
+            <li>
+                <input type="radio" name="formato de imagen" id="PNG">
+                <label for="PNG">PNG</label>
+            </li>
+            <li>
+                <input type="radio" name="formato de imagen" id="JPG">
+                <label for="JPG">JPG</label>
+            </li>
+            <li>
+                <input type="radio" name="formato de imagen" id="GIF">
+                <label for="GIF">GIF</label>
+                <br>
+                <button>enviar</button>
+            </li>
+        </ul>
+    </form>
+    <h1>Elige la respuesta correcta</h1>
+    <h2>¿Cuanto es 45 mas 45?</h2>
+    <form action="">
+        <ol>
+            <li>
+                <input type="radio" name="incisos" id="64">
+                <label for="64">64</label>
+            </li>
+            <li>
+                <input type="radio" name="incisos" id="90">
+                <label for="90">90</label>
+            </li>
+            <li>
+                <input type="radio" name="incisos" id="45">
+                <label for="45">45</label>
+            </li>
+        </ol>
+    </form>
+    <hr>
+    <!-- Mi formulario -->
+    <h1>Datos del empleado</h1>
+    <form action="" class="form">
+        <label>Nombre del empleado:</label>
+        <input type="text" placeholder="Ingrese el nombre" required>
+        <br>
+        <label>Correo:</label>
+        <input type="email" placeholder="Ingrese el email" required>
+        <br>
+        <label>Nombre de la ultima empresa en que estuvo</label>
+        <input type="text" placeholder="Ingrese el nombre" required>
+        <br>
+        <label>Edad</label>
+        <input type="number" placeholder="Ingrese la edad" required>
+        <br>
+        <label>Nivel de ingles</label>
+        <input type="text" placeholder="Ingrese el nivel" required>
+        <br>
+        <h1>¿Maneja seguro social?</h1>
+        <input type="radio" name="eliga" id="si">
+        <label for="si">si</label>
+        <input type="radio" name="eliga" id="no">
+        <label for="no">no</label>
+        <h1>Eliga que lenguajes de programación sabe</h1>
+            <ol>
+                <li>
+                    <input type="radio" name="lenguaje" id="as400">
+                    <label for="as400">as400</label>
+                </li>
+                <li>
+                    <input type="radio" name="incisos" id="javascript">
+                    <label for="javascript">javascript</label>
+                </li>
+                <li>
+                    <input type="radio" name="incisos" id="cobol">
+                    <label for="cobol">cobol</label>
+                </li>
+            </ol>
+            <button>Enviar</button>
+        </form>
+
+</body>
+
+</html>

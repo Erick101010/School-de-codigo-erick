@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(210, 231, 231);
+}
+.titulo{
+    /* widht es para el ancho */
+    width: 60%;
+    /* es para el color de fondo */
+    background-color: cadetblue;
+    /* texto centrado */
+    text-align: center;
+    /* color de fuente */
+    color: chartreuse;
+    /* margen de las letras */
+    margin-left: 20%;
+}
+.centrimetos{
+    /* color de fuente */
+    color: chocolate;
+    /* alinear texto a la izquierda */
+    text-align: left;
+    /* tamaño de fuente */
+    font-size: 1.5cm;
+}
+.pulgadas{
+    font-size: 0.5in;
+    text-align: right;
+    color: crimson;
+}
+.puntos{
+    font-size: 15pt;
+    line-height: 5pt;
+    color: darkblue;
+}
+.picas{
+    font-size: 6pc;
+    color: darkorange;
+    text-align: left;
+}
+.pixeles{
+    width: 140px;
+    height: 140px;
+    border: 12px double blueviolet;
+    color: black;
+}
